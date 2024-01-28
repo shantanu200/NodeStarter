@@ -1,3 +1,7 @@
+
+/**
+ * Represents a service in the system.
+ */
 import { Schema, model, models } from "mongoose";
 import { IService } from "../interface/IService";
 

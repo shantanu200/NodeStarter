@@ -1,3 +1,12 @@
+
+/**
+ * Middleware function to authenticate and authorize user requests.
+ * @param req - The request object.
+ * @param res - The response object.
+ * @param next - The next function to call in the middleware chain.
+ * @returns Promise<void>
+ * @throws Error if JWTSECRET is not found or token is not provided.
+ */
 import { Response } from "express";
 import { NextFunction } from "express";
 import IMiddleware from "../interface/IMiddleware";
