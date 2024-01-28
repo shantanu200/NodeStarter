@@ -1,0 +1,1 @@
+export const DBURL = process.env.MONGOURI;
